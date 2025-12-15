@@ -6,9 +6,11 @@ This guide walks through the complete workflow for mapping the physical workspac
 
 ## 1. Physical Setup
 
+![Workspace ArUco grid with slots](img/board_grid_named.jpg)
+
 1. **Place four large ArUco markers** at the corners of the board (IDs 0–3 using the 4×4 dictionary or IDs 10–13 for the 5×5 set—just keep them consistent).
 2. **Measure the rectangle** between the four corner tags. In our rig this is roughly 24.5" × 15" (≈ 622 mm × 381 mm).
-3. **Draw the grid on the board** (optional but recommended) using `IMG_9051_grid_named.jpg` as the single reference image.  
+3. **Draw the grid on the board** (optional but recommended) using the above image as the single reference.  
    - The image shows the ArUco boundary (red), the internal grid (green, 4×4 by default), and the cell names (`R1C1` … `R4C4`).
    - For a 4×4 breakdown of a 24.5" × 15" area, each cell is ~6.125" wide × 3.75" tall (≈ 155.6 mm × 95.25 mm). Mark these dimensions on the board so the physical grid matches the camera overlay.
 
